@@ -83,10 +83,10 @@
                 </div>
                 </strong></div>
             <%--float : left = yan yana almak için--%>
-            <div style="margin-left: 320px; height: auto; background-color: #cd6600;" class="auto-style8">
+            <div style="margin-left: 320px; height: auto; width: 680px;  background-color: #cd6600;" class="auto-style8">
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                     <p>
-                    </p>
+                        &nbsp;</p>
                 </asp:ContentPlaceHolder>
             </div>
 
