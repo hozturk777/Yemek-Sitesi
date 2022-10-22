@@ -39,7 +39,7 @@
             text-decoration: none;
             font-family: 'Segoe UI';
             font-style: normal;
-            color: #ecab53;
+            color: #cd5555;
         }
 
         .auto-style18 {

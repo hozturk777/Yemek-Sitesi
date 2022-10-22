@@ -3,16 +3,20 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
     <style type="text/css">
     .auto-style9 {
-        font-size: x-large;
+        font-size: large;
     }
     .auto-style10 {
-        font-size: large;
+        font-size: medium;
     }
     .auto-style11 {
         font-size: large;
         text-align: left;
     }
         .auto-style12 {
+            font-size: 20px;
+            text-decoration: none;
+            font-family: 'Segoe UI';
+            font-style: normal;
             font-size: medium;
         }
         .auto-style13 {
@@ -57,7 +61,7 @@
                 <td class="auto-style11">&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style11">
+                <td class="auto-style10">
                     <table class="auto-style1">
                         <tr>
                             <td><strong>Puan :</strong> <strong>

@@ -8,8 +8,16 @@ public class SqlConnect
 {
     public SqlConnection baglanti()
     {
-        SqlConnection baglan = new SqlConnection(@"Data Source=DESKTOP-AC6LB6R\SQLEXPRESS;Initial Catalog=DB_yemektarifi;Integrated Security=True");
+        int sayi = 0;
+        SqlConnection baglan = new SqlConnection(@"Data Source=DESKTOP-AC6LB6R\SQLEXPRESS;Initial Catalog=DB_yemektarifi;Integrated Security=True;Max Pool Size=1000");
         baglan.Open();
-        return baglan;
+        if (sayi == 3)
+        {
+            SqlConnection.ClearAllPools();
+            sayi = 0;
+        }
+            return baglan;
+
     }
+   
 }

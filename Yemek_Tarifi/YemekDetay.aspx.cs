@@ -33,4 +33,15 @@ public partial class YemekDetay : System.Web.UI.Page
         DataList2.DataBind();
       
     }
+
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        SqlCommand komut3 = new SqlCommand("insert into Tbl_Yorumlar (yorumadsoyad,yorummail,yorumicerik,YemekId) values (@p3,@p4,@p5,@p6)", bgl.baglanti());
+        komut3.Parameters.AddWithValue("@p3", TextBox1.Text);
+        komut3.Parameters.AddWithValue("@p4", TextBox2.Text);
+        komut3.Parameters.AddWithValue("@p5", TextBox3.Text);
+        komut3.Parameters.AddWithValue("@p6", yemekid);
+        komut3.ExecuteNonQuery();
+        bgl.baglanti().Close();
+    }
 }

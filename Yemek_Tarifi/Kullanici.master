@@ -46,7 +46,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div style="margin-left: 400px; /*margin-right: 400px*/width: 1000px; height: 150px; background-color: #cd6600;">
+        <div style="margin-left: 400px; /*margin-right: 400px*/width: 1000px; height: 150px; background-color: #ffc1c1;">
         </div>
         <div style="height: 20px; width: 700px; width: 1000px; margin-left: 400px;"></div>
 
@@ -64,7 +64,7 @@
         </div>
         <div style="height: 20px; margin-right: 300px; margin-left: 400px;"></div>
         <div style="height: 300px; width: 1000px; margin-left: 400px;">
-            <div style="height: 225px; float: left; width: 300px; background-color: #cd6600;" class="auto-style5"><strong>KATEGORİLER<br />
+            <div style="height: 225px; float: left; width: 300px; background-color: #ffc1c1;" class="auto-style5"><strong>KATEGORİLER<br />
                 <br />
                 <div class="auto-style6">
                     <div class="auto-style7">
@@ -83,7 +83,7 @@
                 </div>
                 </strong></div>
             <%--float : left = yan yana almak için--%>
-            <div style="margin-left: 320px; height: auto; width: 680px;  background-color: #cd6600;" class="auto-style8">
+            <div style="margin-left: 320px; height: auto; width: 680px;  background-color: #ffc1c1;" class="auto-style8">
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                     <p>
                         &nbsp;</p>
