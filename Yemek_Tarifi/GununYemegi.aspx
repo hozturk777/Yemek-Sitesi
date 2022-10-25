@@ -13,14 +13,25 @@
         text-align: left;
     }
         .auto-style12 {
-            font-size: 20px;
+            font-size: 15px;
             text-decoration: none;
             font-family: 'Segoe UI';
             font-style: normal;
-            font-size: medium;
+            /*font-size: medium;*/
         }
         .auto-style13 {
             text-align: right;
+        }
+        .auto-style14 {
+            font-size: x-large;
+            text-align: center;
+        }
+        .auto-style15 {
+            font-size: 13px;
+            text-decoration: none;
+            font-family: 'Segoe UI';
+            font-style: normal;
+            /*font-size: medium;*/
         }
     </style>
 </asp:Content>
@@ -29,7 +40,7 @@
     <ItemTemplate>
         <table class="auto-style12">
             <tr>
-                <td class="auto-style9">
+                <td class="auto-style14">
                     <strong>
                     <asp:Label ID="Label8" runat="server" Text='<%# Eval("GununYemegiAd") %>'></asp:Label>
                     </strong>
@@ -65,10 +76,10 @@
                     <table class="auto-style1">
                         <tr>
                             <td><strong>Puan :</strong> <strong>
-                                <asp:Label ID="Label11" runat="server" CssClass="auto-style12" Text='<%# Eval("GununYemegiPuan") %>'></asp:Label>
+                                <asp:Label ID="Label11" runat="server" CssClass="auto-style15" Text='<%# Eval("GununYemegiPuan") %>'></asp:Label>
                                 </strong></td>
                             <td class="auto-style13"><strong>Tarih :</strong> <strong>
-                                <asp:Label ID="Label12" runat="server" CssClass="auto-style12" Text='<%# Eval("GununYemegiTarih") %>'></asp:Label>
+                                <asp:Label ID="Label12" runat="server" CssClass="auto-style15" Text='<%# Eval("GununYemegiTarih") %>'></asp:Label>
                                 </strong></td>
                         </tr>
                     </table>

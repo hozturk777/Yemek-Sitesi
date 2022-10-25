@@ -18,11 +18,12 @@
         }
 
         .auto-style12 {
-            font-size: medium;
+            /*font-size: medium;*/
             text-decoration: none;
             font-family: 'Segoe UI';
             font-style: normal;
             color: black;
+            font-size: 15px;
         }
 
         .auto-style13 {
