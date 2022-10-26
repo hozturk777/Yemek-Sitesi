@@ -22,17 +22,17 @@
         .auto-style13 {
             text-align: right;
         }
-        .auto-style14 {
-            font-size: x-large;
-            text-align: center;
-        }
-        .auto-style15 {
-            font-size: 13px;
-            text-decoration: none;
-            font-family: 'Segoe UI';
-            font-style: normal;
+    .auto-style14 {
+        font-size: x-large;
+        text-align: center;
+    }
+    .auto-style15 {
+        font-size: 13px;
+        text-decoration: none;
+        font-family: 'Segoe UI';
+        font-style: normal;
             /*font-size: medium;*/
-        }
+    }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">

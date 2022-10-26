@@ -6,7 +6,7 @@
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title></title>
-    <link href="KullaniciCss.css" rel="stylesheet" />
+    <link href="StyleSheet2.css" rel="stylesheet" />
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -46,7 +46,8 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div style="margin-left: 400px; /*margin-right: 400px*/width: 1000px; height: 150px; background-color: #ffc1c1;">
+        <div style="margin-left: 400px; /*margin-right: 400px*/width: 1000px; height: 200px; background-color: #ffc1c1;">
+            <asp:Image ID="Image1" runat="server" Height="200px" ImageUrl="~/Header/head3.jpg" Width="1000px" />
         </div>
         <div style="height: 20px; width: 700px; width: 1000px; margin-left: 400px;"></div>
 
@@ -64,15 +65,15 @@
         </div>
         <div style="height: 20px; margin-right: 300px; margin-left: 400px;"></div>
         <div style="height: 300px; width: 1000px; margin-left: 400px;">
-            <div style="height: 225px; float: left; width: 300px; background-color: #ffc1c1;" class="auto-style5"><strong>KATEGORİLER<br />
+            <div style="height: 230px; float: left; width: 305px; background-color: #ffc1c1;" class="auto-style5"><strong>KATEGORİLER<br />
                 <br />
                 <div class="auto-style6">
                     <div class="auto-style7">
                         <strong>
                         <asp:DataList ID="DataList1" runat="server" Width="329px" Height="157px">
                             <ItemTemplate>
-                                <div style="width: 295px; border: thin solid #808080">
-                                    <asp:Label ID="Label1" runat="server" Text='<%# Eval("KategoriAd") %>'></asp:Label>
+                                <div style="width: 300px; border: thin solid #808080">
+                                    <a href="KategoriDetay.aspx?KategoriId=<%# Eval("KategoriId")%>"> <asp:Label ID="Label1" runat="server" Text='<%# Eval("KategoriAd") %>' ForeColor="#4A708B" CssClass="auto-style4" ></asp:Label></a>
                                     &nbsp;&nbsp;&nbsp;&nbsp; (
                                     <asp:Label ID="Label2" runat="server" Text='<%# Eval("KategoriAdet") %>'></asp:Label>
                                     )</div>
