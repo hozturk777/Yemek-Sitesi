@@ -17,6 +17,7 @@ public partial class KategorilerAD : System.Web.UI.Page
         DataList1.DataBind();
 
         Panel2.Visible = false;
+        Panel4.Visible = false;
     }
 
     protected void Button1_Click(object sender, EventArgs e)
@@ -27,5 +28,23 @@ public partial class KategorilerAD : System.Web.UI.Page
     protected void Button2_Click(object sender, EventArgs e)
     {
         Panel2.Visible = false;
+    }
+
+    protected void Button6_Click(object sender, EventArgs e)
+    {
+        Panel4.Visible = true;
+    }
+
+    protected void Button7_Click(object sender, EventArgs e)
+    {
+        Panel4.Visible = false;
+    }
+
+    protected void Button5_Click(object sender, EventArgs e)
+    {
+        SqlCommand komut = new SqlCommand("insert into Tbl_Kategoriler (KategoriAd) values (@p1)", bgl.baglanti());
+        komut.Parameters.AddWithValue("@p1", TextBox1.Text);
+        komut.ExecuteNonQuery();
+        bgl.baglanti().Close();
     }
 }

@@ -6,7 +6,7 @@
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title></title>
-    <link href="StyleSheet2.css" rel="stylesheet" />
+    <link href="KullaniciCss.css" rel="stylesheet" />
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -56,8 +56,8 @@
         <div style="margin-left: 400px;" class="auto-style13"></div>
 
         <div style="height: 300px; width: 1000px; margin-left: 400px;">
-            <div style="height: 245px; float: left; width: 305px; background-color: #1e90ff;" class="auto-style5">
-                <table class="auto-style9" style="border: medium solid #000000">
+            <div style="border: medium solid #000000; height: 250px; float: left; width: 305px; background-color: #1e90ff;" class="auto-style5">
+                <table class="auto-style9">
                     <tr>
                         <td class="auto-style16"><strong>MENÜLER</strong></td>
                     </tr>
@@ -92,7 +92,7 @@
                 </strong>
             </div>
             <%--float : left = yan yana almak için--%>
-            <div style="margin-left: 320px; height: auto; width: 680px; background-color: #1e90ff;" class="auto-style8">
+            <div style="margin-left: 340px; height: auto; width: 680px; background-color: #1e90ff;" class="auto-style8">
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 </asp:ContentPlaceHolder>
             </div>
