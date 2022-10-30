@@ -68,7 +68,7 @@
                         <td class="auto-style10" style="border: thin solid #000000"><strong><a href="KategorilerAD.aspx">KATEGORİLER</a> </strong></td>
                     </tr>
                     <tr>
-                        <td class="auto-style10" style="border: thin solid #000000"><strong>YEMEKLER</strong></td>
+                        <td class="auto-style10" style="border: thin solid #000000"><strong><a href="YemeklerAD.aspx">YEMEKLER</a> </strong></td>
                     </tr>
                     <tr>
                         <td class="auto-style10" style="border: thin solid #000000"><strong>YORUMLAR</strong></td>

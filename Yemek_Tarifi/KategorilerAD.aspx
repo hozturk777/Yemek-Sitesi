@@ -68,7 +68,7 @@
                         <a href="KategoriDetayAD.aspx?Kategoriid=<%#Eval("Kategoriid") %>"><asp:Image ID="Image2" runat="server" CssClass="auto-style19" Height="30px" ImageUrl="~/AdminPicture/update.png" Width="30px" /></a> 
                     </td>
                     <td class="auto-style21">
-                        <asp:Image ID="Image3" runat="server" Height="30px" ImageUrl="~/AdminPicture/delete.png" Width="35px" />
+                        <a href="KategorilerAD.aspx?Kategoriid=<%#Eval("Kategoriid") %>&islem=sil"> <asp:Image ID="Image3" runat="server" Height="30px" ImageUrl="~/AdminPicture/delete.png" Width="35px" /></a>
                     </td>
                 </tr>
             </table>
@@ -99,7 +99,7 @@
             <tr>
                 <td class="auto-style26"><strong>Kategori İkon : </strong></td>
                 <td class="auto-style27">
-                    <asp:TextBox ID="TextBox2" runat="server" Width="200px"></asp:TextBox>
+                    <asp:FileUpload ID="FileUpload1" runat="server" />
                 </td>
             </tr>
             <tr>
