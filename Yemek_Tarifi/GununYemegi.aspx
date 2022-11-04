@@ -42,7 +42,7 @@
             <tr>
                 <td class="auto-style14">
                     <strong>
-                    <asp:Label ID="Label8" runat="server" Text='<%# Eval("GununYemegiAd") %>'></asp:Label>
+                    <asp:Label ID="Label8" runat="server" Text='<%# Eval("YemekAd") %>'></asp:Label>
                     </strong>
                     <br />
                 </td>
@@ -50,7 +50,7 @@
             <tr>
                 <td class="auto-style10">
                     <span class="auto-style9"><strong>Malzemeler : </strong></span><strong>
-                    <asp:Label ID="Label9" runat="server" CssClass="auto-style12" Text='<%# Eval("GununYemegiMalzeme") %>'></asp:Label>
+                    <asp:Label ID="Label9" runat="server" CssClass="auto-style12" Text='<%# Eval("YemekMalzeme") %>'></asp:Label>
                     </strong>
                     <br />
                     <br />
@@ -59,7 +59,7 @@
             <tr>
                 <td class="auto-style10">
                     <strong><span class="auto-style9">Tarif : </span>
-                    <asp:Label ID="Label10" runat="server" CssClass="auto-style12" Text='<%# Eval("GununYemegiTarif") %>'></asp:Label>
+                    <asp:Label ID="Label10" runat="server" CssClass="auto-style12" Text='<%# Eval("YemekTarif") %>'></asp:Label>
                     </strong>
                 </td>
             </tr>
@@ -76,10 +76,10 @@
                     <table class="auto-style1">
                         <tr>
                             <td><strong>Puan :</strong> <strong>
-                                <asp:Label ID="Label11" runat="server" CssClass="auto-style15" Text='<%# Eval("GununYemegiPuan") %>'></asp:Label>
+                                <asp:Label ID="Label11" runat="server" CssClass="auto-style15" Text='<%# Eval("YemekPuan") %>'></asp:Label>
                                 </strong></td>
                             <td class="auto-style13"><strong>Tarih :</strong> <strong>
-                                <asp:Label ID="Label12" runat="server" CssClass="auto-style15" Text='<%# Eval("GununYemegiTarih") %>'></asp:Label>
+                                <asp:Label ID="Label12" runat="server" CssClass="auto-style15" Text='<%# Eval("YemekTarih") %>'></asp:Label>
                                 </strong></td>
                         </tr>
                     </table>

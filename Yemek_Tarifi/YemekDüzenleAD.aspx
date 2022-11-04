@@ -33,6 +33,13 @@
             margin-left: 100px;
         }
 
+        .auto-style32 {
+            font-weight: bold;
+            font-size: medium;
+            margin-left: 55px;
+            background-color: seagreen;
+        }
+
         </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
@@ -66,6 +73,12 @@
             <td class="auto-style29" __designer:mapid="1ad">&nbsp;</td>
             <td class="auto-style30" __designer:mapid="1ae"><strong __designer:mapid="1af">
                 <asp:Button ID="Button5" runat="server" CssClass="auto-style23" Text="Güncelle" Width="100px" OnClick="Button5_Click" />
+                </strong></td>
+        </tr>
+        <tr __designer:mapid="1ac">
+            <td class="auto-style29" __designer:mapid="1ad">&nbsp;</td>
+            <td class="auto-style30" __designer:mapid="1ae"><strong>
+                <asp:Button ID="Button6" runat="server" CssClass="auto-style32" Text="Günün Yemeği Seç" Width="200px" OnClick="Button6_Click" />
                 </strong></td>
         </tr>
     </table>

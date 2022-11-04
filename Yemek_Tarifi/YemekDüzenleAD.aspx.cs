@@ -59,4 +59,19 @@ public partial class YemekDüzenleAD : System.Web.UI.Page
       
 
     }
+
+    protected void Button6_Click(object sender, EventArgs e)
+    {
+        //Tüm Yemekleri Durumunu 0 Yaptık
+        SqlCommand komut = new SqlCommand("update Tbl_Yemekler set durum=0", bgl.baglanti());
+        komut.ExecuteNonQuery();
+        bgl.baglanti().Close();
+
+        //Günün Yemeğinin Durumunu 1 Yaptık
+        SqlCommand komut2 = new SqlCommand("update Tbl_Yemekler set durum=1 where YemekId=@p1", bgl.baglanti());
+        komut2.Parameters.AddWithValue("@p1", id);
+        komut2.ExecuteNonQuery();
+        bgl.baglanti().Close();
+
+    }
 }
