@@ -71,10 +71,10 @@
                         <td class="auto-style10" style="border: thin solid #000000"><strong><a href="YemeklerAD.aspx">YEMEKLER</a> </strong></td>
                     </tr>
                     <tr>
-                        <td class="auto-style10" style="border: thin solid #000000"><strong><a href="YorumlarAD.aspx">YORUMLAR></a> </strong></td>
+                        <td class="auto-style10" style="border: thin solid #000000"><strong><a href="YorumlarAD.aspx">YORUMLAR</a> </strong></td>
                     </tr>
                     <tr>
-                        <td class="auto-style10" style="border: thin solid #000000"><strong>MESAJLAR</strong></td>
+                        <td class="auto-style10" style="border: thin solid #000000"><strong><a href="MesajlarAD.aspx">MESAJLAR</a> </strong></td>
                     </tr>
                     <tr>
                         <td class="auto-style10" style="border: thin solid #000000"><strong>GÜNÜN YEMEĞİ</strong></td>
