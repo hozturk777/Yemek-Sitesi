@@ -65,7 +65,7 @@
         <tr __designer:mapid="1ac">
             <td class="auto-style29" __designer:mapid="1ad">&nbsp;</td>
             <td class="auto-style30" __designer:mapid="1ae"><strong __designer:mapid="1af">
-                <asp:Button ID="Button5" runat="server" CssClass="auto-style23" Text="Güncelle" Width="100px" />
+                <asp:Button ID="Button5" runat="server" CssClass="auto-style23" Text="Güncelle" Width="100px" OnClick="Button5_Click" />
                 </strong></td>
         </tr>
     </table>
